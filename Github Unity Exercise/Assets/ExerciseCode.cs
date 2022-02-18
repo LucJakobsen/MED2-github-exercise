@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class ExerciseCode : MonoBehaviour
 {
-    int myVariable = 0;
+    int myVariable = 10;
 
     private void Start() {
         Debug.Log("value before calling function: " + myVariable);
@@ -27,5 +27,4 @@ public class ExerciseCode : MonoBehaviour
         var = var + 20;
         Debug.Log("Value inside function: " + var);
     }
-    
 }
