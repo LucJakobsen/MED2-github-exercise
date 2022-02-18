@@ -11,8 +11,13 @@ public class ExerciseCode : MonoBehaviour
         Debug.Log("value before calling function: " + myVariable);
 
         // Call the function 'PassByValue' below this line – pass 'myVariable' as argument.
+<<<<<<< HEAD
         PassByReference(ref myVariable);
         // This is a debug log
+=======
+        PassByReference (ref myVariable);
+        
+>>>>>>> a9fec72248202e41bab329421575ff4d08b41d75
         Debug.Log("value after calling function: " + myVariable);
     }
 
