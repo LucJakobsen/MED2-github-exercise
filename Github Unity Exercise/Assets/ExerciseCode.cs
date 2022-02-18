@@ -6,7 +6,6 @@ using UnityEngine;
 public class ExerciseCode : MonoBehaviour
 {
     int myVariable = 10;
-    int  😅 = 5;
 
     private void Start() {
         Debug.Log("value before calling function: " + myVariable);
