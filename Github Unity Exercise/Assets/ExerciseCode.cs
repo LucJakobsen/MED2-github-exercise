@@ -26,4 +26,8 @@ public class ExerciseCode : MonoBehaviour
         var = var + 20;
         Debug.Log("Value inside function: " + var);
     }
-}
+
+    public void HelloWorld() {
+        Debog.Log("Hello!")
+    }
+ }
