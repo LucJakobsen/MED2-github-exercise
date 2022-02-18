@@ -1,4 +1,4 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -6,14 +6,16 @@ using UnityEngine;
 public class ExerciseCode : MonoBehaviour
 {
     int myVariable = 10;
+    int  😅 = 5;
 
     private void Start() {
         Debug.Log("value before calling function: " + myVariable);
      
         PassByReference (ref myVariable);
         Debug.Log("value after calling function: " + myVariable);
+         
     }
-
+   
     public void PassByValue(int var)
     {
         var = var + 10;
